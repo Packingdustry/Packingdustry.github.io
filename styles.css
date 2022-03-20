@@ -12,6 +12,15 @@ p{
     font-size: 1.3em;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: lightgrey;
+}
+
 #first{
     display: flex;
 }
@@ -35,4 +44,8 @@ p{
     margin-top: 45px;
     color: white;
     margin-right: 20px;
+}
+
+article{
+    margin-left: 13px;
 }
