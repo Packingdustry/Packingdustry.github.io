@@ -1,12 +1,7 @@
 header{
     display: flex;
     background-color: rgb(33, 33, 46);
-}
-
-#logo{
-    max-width: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: space-between;
 }
 
 h1{
@@ -17,7 +12,27 @@ p{
     font-size: 1.3em;
 }
 
+#first{
+    display: flex;
+}
+
+#logo{
+    max-width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #title{
     margin-top: 45px;
     color: white;
+}
+
+#second{
+    display: flex;
+}
+
+.second{
+    margin-top: 45px;
+    color: white;
+    margin-right: 20px;
 }
