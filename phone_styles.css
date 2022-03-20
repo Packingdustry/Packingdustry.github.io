@@ -3,6 +3,10 @@ header{
     flex-direction: column;
 }
 
+#miniGame{
+    font-size: 0em;
+}
+
 h1{
     font-size: 1.4em;
 }
