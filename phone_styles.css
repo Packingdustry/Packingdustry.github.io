@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 1.4em;
+}
+
+p{
+    font-size: 1.1em;
+}
+
+#elysee{
+    max-width: 100%;
+}
+
+#three{
+    display: flex;
+    flex-direction: column;
+}
+
+.coupePrecise{
+    margin-bottom: 20px;
+}
+
+#ascii, #cut{
+    font-size: 0em;
+    background-color: none;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}

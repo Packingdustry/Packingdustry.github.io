@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Minist'hair</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" media="all and (orientation: portrait)" href="phone_styles.css">
         <link rel="icon" href="images/cissors.png">
         <script src="script.js"></script>
     </head>
@@ -25,7 +26,7 @@
             <div id="presentation">
                 <h1>Présentation :</h1>
                 <p>Bonjour, nous sommes un salon de coiffure basé à Pétaouchnok, et nous sommes capables de vous faire des coiffures de ministres. </p>
-                <p><img src="images/elysee.jpg" alt="Elysée"></p>
+                <p><img src="images/elysee.jpg" alt="Elysée" id="elysee"></p>
             </div>
             <div id="coupes">
                 <h1>Nos coupes :</h1>
@@ -100,7 +101,7 @@
                 *********************/*******////***/////////////////////////////////////////(/((*****/****/(%#(**,,,,,,,      .********<br>
                 **************************************/////////////////////////////////////////(/*****//****/#%(/*,,,,,,, .....*********<br>
             </p>
-            <p class="coupePrecise" onclick="cut()">✂ couper les cheveux</p>
+            <p id="cut" class="coupePrecise" onclick="cut()">✂ couper les cheveux</p>
         </article>
         <footer>
             <p class="footer"><a class="footer" href="https://www.google.com/maps/place/Le+Palais+de+L'%C3%89lys%C3%A9e/@48.8697941,2.3142886,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66fce8ca6e347:0x2e38f4467a582f22!8m2!3d48.8697906!4d2.3164773?hl=fr">Adresse</a></p>
